@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	background-image: url(../imagenes/fondo2.png);
+	background-size: cover;
+}
+
+header, .main, footer{
+	
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+h3{
+	font-size: 14px;
+}
+p {
+	font-size: 22PX;
+	padding: 12px;
+	
+}
+h2{
+	font-size: 40px;
+}
+header {
+	background: url(../imagenes/cabeza.png);
+	background-size: cover;
+}
+
+.logo{
+	position: relative;
+	top: 5px;
+	bottom: 0px;
+	right: 0px;
+	left: 5px;
+}
+ 
+.menu{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu li a {
+	padding: 5px 5px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	background: #ccc;
+	color: black;
+	overflow: ;
+}
+
+table{
+	border: 1px solid #000;
+}
+
+.pie{
+	background: yellow;
+}
+
+table{
+	border: 1px solied #000;
+	border-collapse: collapse;
+}
+
+table td{
+	border: 1px solid #000;
+	padding: 20px;
+}
+
+.main .articles{
+	width: 68.5%;
+	margin-right: 1.5%;
+	float: left;
+	
+}
+
+.main .articles article{
+	padding: 20px;
+	background: #e6e6e6;
+	margin-bottom: 20px;
+
+}
+
+aside{
+	width: 30%;
+	background: orange;
+	float: left;
+	padding: 20px;
+	box-sizing:border-box ;
+
+}
+
+footer .pie{
+	background: black;
+	color: #fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.caracteristicas{
+	font-size: 20px;
+}
+
+.psm{
+	float: left;
+	
+}
+
+.logo32{
+	text-align: center;
+	padding: 0px 33%;
+
+}
+
+.carac{
+	font-size: 20px;
+}
+
+.lx{
+	font-size: 25px;
+}
